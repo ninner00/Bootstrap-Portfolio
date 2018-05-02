@@ -53,6 +53,7 @@ header {
 .navbar-nameLogo {
     background-color:#4aaaa5; 
     padding:10px 10px 10px 20px;
+    margin-left:-15px;
 }
 
 .navbar-font {
@@ -316,4 +317,9 @@ textarea {
 
 .image-container:hover .overlay {
   opacity: 0;
+}
+
+
+@media (max-width: 40em) {
+    .navbar-960 {  width:100%; text-align:center; }
 }
